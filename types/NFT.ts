@@ -5,4 +5,8 @@ export interface NFT {
   url: string;
   price: number;
   minted?: boolean;
+  attributeNameOne: string;
+  valueNameOne: string
+  attributeNameTwo: string;
+  valueNameTwo: string;
 }

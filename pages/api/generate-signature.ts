@@ -2,6 +2,7 @@ import { ThirdwebSDK } from "@thirdweb-dev/sdk";
 import type { NextApiRequest, NextApiResponse } from "next";
 import { nftCollectionAddress } from "../../data/address";
 import { nfts } from "../../data/nfts";
+//import { NFT } from "../../types/NFT.ts";
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { id, address } = JSON.parse(req.body);
@@ -27,14 +28,22 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
       }
     }
 
-    const { name, description, url, price } = nfts[id];
+    const { name, description, url, price, attributeNameOne, valueNameOne, attributeNameTwo, valueNameTwo } = nfts[id];
+    //const { attributeNameOne, valueNameOne, attributeNameTwo, valueNameTwo } = NFT;
 
     const metadata = {
       metadata: {
         name,
         description,
         image: url,
-        attributes: [{ id }],
+        attributes: [{ 
+          "trait_type": attributeNameOne, 
+          "value": valueNameOne
+     },{
+          "trait_type": attributeNameTwo,
+          "value": valueNameTwo
+        }
+    ],
       },
       price,
       to: address,

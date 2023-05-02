@@ -164,7 +164,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "yamanashi",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 15,
@@ -175,7 +175,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "nagano",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 16,
@@ -186,7 +186,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "shizuoka",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 17,
@@ -197,7 +197,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "toyama ",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 18,
@@ -208,7 +208,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "gifu",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 19,
@@ -219,7 +219,7 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "ishikawa",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
   {
     id: 20,
@@ -230,6 +230,19 @@ export const nfts: NFT[] = [
     attributeNameOne: "prefecture",
     valueNameOne: "aichi",
     attributeNameTwo: "area",
-    valueNameTwo: "kanto",
+    valueNameTwo: "chubu",
   },
+  
+  {
+    id: 22,
+    name: "Shiga",
+    description: "Shiga.",
+    url: "https://ipfs.thirdwebcdn.com/ipfs/QmafJtrenwk8QpBpkGLjBcXXuwgSFwe4oGSBbr2sSWkh1h/shiga.png",
+    price: 0.0,
+    attributeNameOne: "prefecture",
+    valueNameOne: "shiga",
+    attributeNameTwo: "area",
+    valueNameTwo: "kinki",
+  },
+  
 ];

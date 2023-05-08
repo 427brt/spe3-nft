@@ -8,7 +8,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   if (req.method === "GET") {
-    const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY!, "goerli");
+    const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY!, "mumbai");
 
     const nftCollection = await sdk.getContract(
       nftCollectionAddress,

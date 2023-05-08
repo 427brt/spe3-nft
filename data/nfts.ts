@@ -232,7 +232,17 @@ export const nfts: NFT[] = [
     attributeNameTwo: "area",
     valueNameTwo: "chubu",
   },
-  
+  {
+    id: 21,
+    name: "Fukui",
+    description: "Fukui.",
+    url: "",
+    price: 0.0,
+    attributeNameOne: "prefecture",
+    valueNameOne: "fukui",
+    attributeNameTwo: "area",
+    valueNameTwo: "chubu",
+  },
   {
     id: 22,
     name: "Shiga",

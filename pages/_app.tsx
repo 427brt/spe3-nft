@@ -3,7 +3,7 @@ import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
 
 // This is the chain your dApp will work on.
-const activeChain = "goerli";
+const activeChain = "mumbai";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     sdkOptions={{
       gasless: {
         openzeppelin: {
-          relayerUrl: "https://api.defender.openzeppelin.com/autotasks/77d75582-48a4-4f84-9b21-4b9d32c587d6/runs/webhook/26c6522d-02d9-4931-8267-af1ff71eaab6/9jndWsSGoyATs6qNR5Adfq",
+          relayerUrl: "https://api.defender.openzeppelin.com/autotasks/23ef3f9e-ef7f-4f0e-9655-6cb9e7cbad6b/runs/webhook/26c6522d-02d9-4931-8267-af1ff71eaab6/BfXYmYmkheEgffuFvLQEnf",
         },
       },
     }}

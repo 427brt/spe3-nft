@@ -7,18 +7,16 @@ body {
 }
 
 a {
-  color: #7dd3fc;
-  text-decoration: none;
+  color: #ffffff;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html {
-  color-scheme: dark;
-}
+
 body {
   color: #ffffff;
-  background: #2ea3c7;
+  background: rgb(204,137,203);
+  background: linear-gradient(0deg, rgba(204,137,203,1) 0%, rgba(191,174,235,1) 48%, rgba(189,174,235,1) 54%, rgba(148,174,233,1) 100%);
 }

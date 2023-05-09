@@ -34,6 +34,7 @@ const Home: NextPage = () => {
         <>
           <h1>Select an NFT to Mint</h1>
           <h3>No crypto required to mint.</h3>
+          <a href="https://testnets.opensea.io/ja/account" target="_blank">Your NFT</a>
           {loading && <p>Loading...</p>}
           <div className={styles.NFTs}>
             {nftMetadata &&

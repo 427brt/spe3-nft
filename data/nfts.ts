@@ -485,7 +485,7 @@ export const nfts: NFT[] = [
     id: 44,
     name: "Okinawa",
     description: "Okinawa.",
-    url: "https://ipfs.thirdwebcdn.com/ipfs/QmfKEktugWgWSA7xgUbFJ3WeVoSr44Y4wu5w8tT6ZJTUVy/miyazaki.png",
+    url: "https://ipfs.thirdwebcdn.com/ipfs/Qmdxs2z8N2tHK4x3dnJb72BJfwuFGQ6hva142DnPcvWopw/okinawa.png",
     price: 0.0,
     attributeNameOne: "prefecture",
     valueNameOne: "okinawa",

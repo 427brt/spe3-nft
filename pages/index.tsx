@@ -33,6 +33,7 @@ const Home: NextPage = () => {
       {address ? (
         <>
           <h1>Select an NFT to Mint</h1>
+          <h3>No crypto required to mint.</h3>
           {loading && <p>Loading...</p>}
           <div className={styles.NFTs}>
             {nftMetadata &&

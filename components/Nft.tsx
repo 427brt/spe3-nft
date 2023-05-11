@@ -30,7 +30,7 @@ const Nft = ({ nft }: { nft: NFT }) => {
         const data = await response.json();
 
         await nftCollection?.signature.mint(data.signature);
-        alert("NFT successfully minted!");
+        alert("NFT successfully minted! \n Take a look at the \"You can check your NFT here\" at the top of the page!");
       }
     } catch (error) {
       alert("Failed to mint NFT!");

@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import { ThirdwebProvider } from "@thirdweb-dev/react";
 import "../styles/globals.css";
+import  Head  from "next/head";
 
 // This is the chain your dApp will work on.
 const activeChain = "mumbai";
@@ -16,7 +17,16 @@ function MyApp({ Component, pageProps }: AppProps) {
       },
     }}
     activeChain={activeChain}>
+      
       <Component {...pageProps} />
+      <Head>
+        <title>Mint your Hometown NFT</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content=" "
+        />
+      </Head>
     </ThirdwebProvider>
   );
 }

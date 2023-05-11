@@ -33,8 +33,8 @@ const Home: NextPage = () => {
       {address ? (
         <>
           <h1>Mint the NFT of your Hometown</h1>
-          <h3>No crypto required to mint.</h3>
-          <a href="https://testnets.opensea.io/ja/account" target="_blank">Your NFT</a>
+          <h3>No gas fee required to mint.</h3>
+          <a href="https://testnets.opensea.io/ja/account" target="_blank">You can check your NFT here</a>
           {loading && <p>Loading...</p>}
           <div className={styles.NFTs}>
             {nftMetadata &&
